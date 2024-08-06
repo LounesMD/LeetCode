@@ -8,7 +8,7 @@ class ListNode:
 class Solution:
     def addTwoNumbers(self, l1: Optional[ListNode], l2: Optional[ListNode]) -> Optional[ListNode]:
         """
-        Could be refactored to use only one "while l1 or l2 or r" and less variables.
+        Could be refactored to use only one "while" loop and less variables.
         """
         r = 0
         p = ListNode()
