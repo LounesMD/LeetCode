@@ -1,3 +1,5 @@
+#include <stdbool.h>
+
 bool canConstruct(char* s, int k) {
     int size = 0;
     int arr[26] = {0};
