@@ -11,4 +11,4 @@ class Solution:
                     (elt == "]" and res[-1] != "["):
                     return False
                 res.pop()
-        return True 
+        return len(res)==0 
